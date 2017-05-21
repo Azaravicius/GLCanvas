@@ -1,0 +1,17 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden; /*  Disable scrollbars */
+    display: block;  /* No floating content on sides */
+    border: 0;
+}
+* {
+    box-sizing: border-box;
+}
+canvas {
+    position: absolute;
+    left: 0px; 
+    top: 0px;
+}
